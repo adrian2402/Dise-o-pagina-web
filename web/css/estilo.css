@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: cornflowerblue;
+    padding: 1px;
+    display: flex;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+svg{
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+#contenedor {
+    width: 98%;
+    margin: 20px auto ;
+}
+#espacio1{
+    width: 150px;
+}
+#espacio2{
+    width: 400px;
+
+}
+#logo{
+    width: 8% ;
+    margin: 5px auto ;
+    display: block;
+}
+
+section{
+
+    width: 50%;
+    padding: 20px;
+}
+section figure img {
+    width: 100% ;
+    margin: 10px auto ;
+    display: block;
+}
+
+main{
+    display: flex;
+}
+footer{
+    padding: 30px;
+    text-align: center ;
+    background-color: green;
+}
+
+aside{
+    padding: 30px;
+    background-color: orangered;
+}
+
+nav figure {
+    width: 8%;
+
+}
+
+nav figure svg{
+    width: 30% ;
+    margin: 5px auto ;
+    display: block;
+}
+
+nav figure figcaption{
+    margin: 2px ;
+    text-align: center;
+}
